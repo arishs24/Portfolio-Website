@@ -278,7 +278,7 @@ export const publishedResearch = [
       'Characterized liposomal formulations using dynamic light scattering (DLS), high-performance liquid chromatography (HPLC), and zeta potential measurements, achieving a uniform size distribution (~100 nm) and high encapsulation efficiency (90% ± 5%).',
       'Anticipated significant morphological changes for PS400 and PCD formulations post-exposure, with DLC and TiMoS2 formulations maintaining their as-received appearance.'
     ],
-    link: 'https://docs.google.com/document/d/10j3IIps_KfYgitQG2ic30XpG5OyOm71VEwJBbDiEagY/edit?usp=sharing', // Add link to the research paper
+    link: 'https://www.researchgate.net/publication/382938698_Optimization_of_a_Ligand-Targeted_Smart_Liposomal_Drug_Delivery_System_for_the_Treatment_of_Interstitial_Lung_Disease_Using_CHIR99021', // Add link to the research paper
 
   },
 
@@ -346,11 +346,11 @@ export const publishedResearch = [
         },
         {
           name: "Raspberry PI",
-          color: "yellow-text-gradient",
+          color: "blue-text-gradient",
         },
         {
           name: "Keras",
-          color: "red-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: carrent,
@@ -432,7 +432,7 @@ export const publishedResearch = [
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/arishs24/Portfolio-Website",
     },
   ];
   
