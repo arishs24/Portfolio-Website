@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "homepage": "https://arishs24.github.io/portfolio-website",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
