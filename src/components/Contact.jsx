@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { FaLinkedin, FaOrcid } from "react-icons/fa"; // Import the icons
+import { FaGithub, FaLinkedin, FaOrcid } from 'react-icons/fa'; // Import icons
 
 import styles from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -66,7 +66,9 @@ const Contact = () => {
   };
 
   return (
-    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
+    <div
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+    >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
@@ -121,14 +123,17 @@ const Contact = () => {
           </button>
         </form>
 
-        <div className='mt-8 flex justify-center space-x-6'>
-          <a href="https://www.linkedin.com/in/arishshahab" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="text-white text-2xl" />
+        {/* Add the social icons here */}
+        <div className="flex mt-8 space-x-6">
+          <a href="https://github.com/arishs24" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="text-white text-2xl hover:text-gray-400" />
           </a>
-          <a href="https://orcid.org/0009-0008-2480-1087" target="_blank" rel="noopener noreferrer">
-            <FaOrcid className="text-white text-2xl" />
+          <a href="https://www.linkedin.com/in/arishs24" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="text-white text-2xl hover:text-gray-400" />
           </a>
-          {/* Add more social icons here as needed */}
+          <a href="https://orcid.org/0000-0001-2345-6789" target="_blank" rel="noopener noreferrer">
+            <FaOrcid className="text-white text-2xl hover:text-gray-400" />
+          </a>
         </div>
       </motion.div>
 

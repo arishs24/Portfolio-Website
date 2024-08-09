@@ -17,6 +17,7 @@ import {
     docker,
     meta,
     starbucks,
+    medace,
     tesla,
     csys,
     thp,
@@ -120,6 +121,19 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Founder and Full Stack Developer",
+      company_name: "MedAce.AI",
+      icon: medace,
+      iconBg: "#383E56",
+      date: "August 2024 - Present",
+      points: [
+        'Founded and led the development of "Med Ace AI," an advanced AI-powered tool designed to simulate medical school interviews and provide personalized feedback to aspiring medical students.',
+        "Implemented and integrated advanced Natural Language Processing (NLP) techniques and AI models, specifically utilizing OpenAI’s GPT-4, to dynamically generate interview questions and analyze user responses for relevance, clarity, and content quality.",
+        "Developed robust Text-to-Speech (TTS) and Speech-to-Text (STT) functionalities to enable realistic voice interactions, enhancing the simulation experience for users by allowing them to practice in an environment that closely mimics real interview conditions.",
+        "Engineered the backend infrastructure using Python and Django, creating scalable and efficient API endpoints to manage interview sessions, process user inputs, and deliver real-time feedback.",
+      ],
+    },
     {
       title: "Orthopaedic Clinical Research Intern",
       company_name: "Hamilton Health Sciences | Juravinski Hospital",

@@ -26,6 +26,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import csys from "./company/csys.png"
+import medace from "./company/medace.png"
 
 import thp from "./company/thp.jpg"
 import shadow from "./company/shadow.png"
@@ -63,6 +64,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  medace,
   math,
   csys,
   thp,
